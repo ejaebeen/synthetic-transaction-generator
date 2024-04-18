@@ -1,0 +1,15 @@
+transaction_from: "2020-01-01"
+transaction_to: "2022-07-01"
+
+feature_count: 9
+
+transaction_rate_per_second: 0.005
+fraud_rate: 0.05
+
+column_name:
+  transaction_date: "transaction_date"
+  transaction_amount: "transaction_amount"
+  fraud: "fraud"
+  fraud_identified_date: "fraud_identified_date"
+
+random_state: 12321
